@@ -58,3 +58,11 @@ footer > ul > li:last-child {
   width: auto;
   max-width: 200px;
 }
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
